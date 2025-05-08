@@ -1,11 +1,12 @@
 
-
-
+import Addelement from "./addelement"
 function App() {
-  
-
+  const username='i am teju'
   return (
-    <h2>this is done byme</h2>
+    <>
+    <Addelement/>
+    <p>hello {username}</p>
+    </>
   )
 }
 
