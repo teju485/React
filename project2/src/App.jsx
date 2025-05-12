@@ -4,20 +4,21 @@ import viteLogo from '/vite.svg'
 import './App.css'
  
 function App() {
-  const [counter,setcounter]=useState(10)
-  //function addvalue button
-  const addvalue = ()=>{
-  setcounter( counter < 20 ?counter+1 : console.log("limit is 20"))
-  console.log("updated by ",counter);
+  // const [counter,setcounter]=useState(10)
+  // //function addvalue button
+  // const addvalue = ()=>{
+  // setcounter( counter < 20 ?counter+1 : console.log("limit is 20"))
+  // console.log("updated by ",counter);
     
-  }
-  //function for remove  counter button 
-  const removeValue=()=>{
-    setcounter(counter > 0 ? counter-1 : console.log("limit is 0"))
-   if(!setcounter)
-   {console.log("finshed");}
+  // }
+  // //function for remove  counter button 
+  // const removeValue=()=>{
+  //   setcounter(counter > 0 ? counter-1 : console.log("limit is 0"))
+  //  if(!setcounter)
+  //  {console.log("finshed");}
 
-  }
+  // }
+  
   
   
   return (
